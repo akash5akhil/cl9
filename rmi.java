@@ -57,3 +57,10 @@ public interface Adder extends Remote{
 
 public String concat(String x,String y)throws RemoteException;
 }
+
+to run
+javac *.java
+rmic AdderRemote
+rmiregistry 5000
+  java MyServer
+  java MyClient
