@@ -171,7 +171,12 @@ public class client
     }  
 }  
 
-
+to run
+java *.java
+java Server
+java AdditionServer
+java SubtractorServer
+java Client
 
 
 
